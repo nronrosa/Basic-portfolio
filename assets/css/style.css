@@ -1,0 +1,268 @@
+/**
+ * Building a Recommended HW
+ **/
+
+ * {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; color: #777;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.mainheader {
+    background-color: white;
+}
+
+nav {
+    float: right;
+    padding: 30px;
+}
+
+#name {
+    background-color: #4aaaa5;
+    height: 100px;
+    width: 400px;
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+    float: left;
+}
+
+
+header {
+    width: 960px; 
+    margin: 0 auto 0 auto;
+    background-color: #ffffff;
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#content {
+    background-image: url("../images/honey_im_subtle.png"); 
+    padding: 25px;
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+}
+
+#center {
+    background-color: #ffffff;
+    width: 960px; 
+    padding: 20px;
+}
+
+
+
+#contentheading {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 30px;
+    color: #4aaaa5;
+    border-bottom: 3px solid #666666;
+    padding: 10px;
+}
+
+.myphoto {
+    width: 25%;
+    float: left;
+    margin: 10px 10px 0px 0px;
+}
+    
+
+p {
+    color: #777777;
+    line-height: 2;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    clear: both; 
+    background-color: #666666;   
+    height: 75px;
+    border-top: 6px solid #4aaaa5;
+}
+
+
+#footertext {
+    margin-top: 25px;
+    color: #dddddd;
+    font-size: 15;
+}
+
+
+/* Contact */
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+    border: 1px solid #ccc;
+    color: #777777;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+    border: 1px solid #ccc;
+    color: #777777;
+    height: 200px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    padding: 10px;
+    width: 87px;
+    color: #ffffff;   
+}
+
+form{
+    text-align: left;
+    padding: 10px;
+}
+
+
+/* Portfolio */
+.portfolio {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    margin: 10px;}
+
+img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.imagesleft {
+    float: left;
+}
+
+
+.imagesright {
+    float: left;
+    margin-left: 50px;
+}
+
+#musicimage {
+    position: relative;  
+    width: 200px;
+    height: 200px; 
+
+}
+
+#musicbanner {
+    position: absolute;
+    bottom: 50px;
+    width: 200px;
+    height: 40px;
+    background-color: #4aaaa5;  
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#flowersimage {
+    clear: both;
+    position: relative;  
+    width: 200px;
+    height: 200px; 
+    
+}
+
+#flowersbanner {
+    position: absolute;
+    bottom: 50px;
+    width: 200px;
+    height: 40px;
+    background-color: #4aaaa5;  
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#foodimage {
+    clear: both;
+    position: relative;  
+    width: 200px;
+    height: 200px; 
+}
+
+#foodbanner {
+    position: absolute;
+    bottom: 50px;
+    width: 200px;
+    height: 40px;
+    background-color: #4aaaa5;  
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#porscheimage {
+    clear: both;
+    position: relative;  
+    width: 200px;
+    height: 200px; 
+}
+
+#porschebanner {
+    position: absolute;
+    bottom: 50px;
+    width: 200px;
+    height: 40px;
+    background-color: #4aaaa5;  
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#sunsetimage {
+    clear: both;
+    position: relative;  
+    width: 200px;
+    height: 200px; 
+}
+
+#sunsetbanner {
+    position: absolute;
+    bottom: 50px;
+    width: 200px;
+    height: 40px;
+    background-color: #4aaaa5;  
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#puppyimage {
+    clear: both;
+    position: relative;  
+    width: 200px;
+    height: 200px; 
+}
+
+#puppybanner {
+    position: absolute;
+    bottom: 50px;
+    width: 200px;
+    height: 40px;
+    background-color: #4aaaa5;  
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
